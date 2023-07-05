@@ -1,0 +1,64 @@
+.Card {
+  width: 388px;
+  height: 491px;
+  flex-shrink: 0;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.05);
+  z-index: 1;
+  .Img {
+    border-radius: 50px 50px 0 0;
+    z-index: 0;
+    overflow-y: hidden;
+    width: 100%;
+  }
+  .Texts {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    height: 200px;
+    padding-left: 43px;
+    padding-right: 40px;
+    padding-top: 22px;
+    text-align: center;
+    h2 {
+      color: #0d4c93;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      letter-spacing: 1.3px;
+    }
+    p {
+      color: #000;
+      text-align: center;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: 24px;
+    }
+  }
+  .Button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    button {
+      background: linear-gradient(90deg, #0d4c93 0%, #00c9c9 100%);
+      width: 70%;
+      height: 50px;
+      border-radius: 35px;
+      border: none;
+      color: #fff;
+      transform: translateY(23px);
+      color: #fff;
+      text-align: center;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+  }
+}
