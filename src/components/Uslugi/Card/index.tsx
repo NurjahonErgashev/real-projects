@@ -1,5 +1,4 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import Button from "../../Button";
 import styles from "./index.module.scss";
 export function UslugiCard(props: {
   img: any;
